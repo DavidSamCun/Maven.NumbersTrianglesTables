@@ -1,0 +1,18 @@
+        int arraylength = stop - start + 1;
+        int[] array = new int[stop+5];
+        String output = "";
+
+        //build array
+        for(int i = start; i < stop; i++){
+            array[i] = i;
+            System.out.println(array[i]);
+        }
+
+
+        //check array
+        for (int i = start; i <= stop; i++ )
+        if (array[i]%2 == 0){
+            output += String.valueOf(array[i]);
+            System.out.println(output);
+        }
+        return output;

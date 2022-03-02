@@ -21,7 +21,7 @@ public class TableUtilitiesTest {
                 "  9 | 18 | 27 | 36 | 45 | 54 | 63 | 72 | 81 | 90 |\n" +
                 " 10 | 20 | 30 | 40 | 50 | 60 | 70 | 80 | 90 |100 |\n";
 
-        String actual = TableUtilities.getLargeMultiplicationTable();
+        String actual = TableUtilities.getLargeMultiplicationTable(10);
         Assert.assertEquals(expected, actual);
     }
 
